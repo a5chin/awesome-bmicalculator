@@ -6,14 +6,15 @@ name: Deploy to Firebase Hosting on merge
   push:
     branches:
       - main
+
 jobs:
-  deploy:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
     environment:
       name: Deployment
       url: https://bmicalculator-a5chin.web.app
 
-  build_and_deploy:
-    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
