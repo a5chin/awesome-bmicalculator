@@ -1,4 +1,4 @@
-# calculator
+# BMICalculator
 
 A new Flutter project.
 
