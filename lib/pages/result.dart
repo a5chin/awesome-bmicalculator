@@ -64,7 +64,7 @@ class _ResultState extends State<Result> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        "18.5 - 25 kg/m",
+                        "18.5 - 25 kg/m^2",
                         style: headlines,
                       ),
                     ),
